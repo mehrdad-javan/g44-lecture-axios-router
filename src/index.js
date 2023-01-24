@@ -1,6 +1,7 @@
 import ReactDOM from "react-dom/client";
 import AxiosExample from "./components/AxiosExample";
 import "bootstrap/dist/css/bootstrap.css";
+import RouterExample from "./components/RouterExample";
 
 
 //const element = "Hello React!";
@@ -8,4 +9,4 @@ import "bootstrap/dist/css/bootstrap.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-root.render(<AxiosExample />);
+root.render(<RouterExample />);
